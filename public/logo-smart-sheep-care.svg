@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .badge { fill: #3F6C51; }
+      .wool { fill: #FAF7F2; }
+      .face { fill: #8B5E3C; }
+      .eye { fill: #2B2B28; }
+      .node { fill: #2F9E8F; }
+      .link { stroke: #2F9E8F; stroke-width: 3; stroke-linecap: round; }
+      .word-main { font-family: 'Plus Jakarta Sans', 'Segoe UI', sans-serif; font-weight: 800; fill: #2C4E3A; }
+      .word-tagline { font-family: 'Inter', 'Segoe UI', sans-serif; font-weight: 500; fill: #6B6B63; }
+    </style>
+  </defs>
+
+  <!-- ICON: badge lingkaran -->
+  <circle class="badge" cx="110" cy="110" r="100"/>
+
+  <!-- Wool cluster (bulu domba, bentuk awan) -->
+  <circle class="wool" cx="72" cy="98" r="30"/>
+  <circle class="wool" cx="100" cy="82" r="34"/>
+  <circle class="wool" cx="132" cy="82" r="34"/>
+  <circle class="wool" cx="158" cy="98" r="30"/>
+  <circle class="wool" cx="84" cy="128" r="32"/>
+  <circle class="wool" cx="136" cy="128" r="32"/>
+  <circle class="wool" cx="110" cy="138" r="36"/>
+
+  <!-- Telinga -->
+  <ellipse class="face" cx="72" cy="112" rx="13" ry="19" transform="rotate(-25 72 112)"/>
+  <ellipse class="face" cx="148" cy="112" rx="13" ry="19" transform="rotate(25 148 112)"/>
+
+  <!-- Wajah -->
+  <ellipse class="face" cx="110" cy="138" rx="32" ry="28"/>
+
+  <!-- Mata -->
+  <circle class="eye" cx="98" cy="136" r="4.5"/>
+  <circle class="eye" cx="122" cy="136" r="4.5"/>
+
+  <!-- Hidung -->
+  <ellipse class="eye" cx="110" cy="150" rx="5" ry="3.5"/>
+
+  <!-- Synapse nodes: elemen "connect / smart" -->
+  <line class="link" x1="158" y1="55" x2="180" y2="72"/>
+  <line class="link" x1="180" y1="72" x2="168" y2="95"/>
+  <line class="link" x1="158" y1="55" x2="168" y2="95"/>
+  <circle class="node" cx="158" cy="55" r="7"/>
+  <circle class="node" cx="180" cy="72" r="6"/>
+  <circle class="node" cx="168" cy="95" r="5"/>
+
+  <!-- WORDMARK -->
+  <text x="240" y="110" class="word-main" font-size="38">Smart Sheep</text>
+  <text x="240" y="150" class="word-main" font-size="38">Care System</text>
+  <text x="240" y="180" class="word-tagline" font-size="17">Kelompok Ternak Gembala Sejahtera</text>
+</svg>
